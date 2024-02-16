@@ -1,4 +1,5 @@
 build/
+.build/
 build-*/
 out/
 *.pyc
@@ -17,3 +18,8 @@ third_party/tint
 android_test/libs
 android_test/include
 .DS_Store
+
+.swiftpm/
+bazel-*
+MODULE.bazel.lock
+Package.resolved
