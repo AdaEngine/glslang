@@ -11,3 +11,5 @@ module(
     compatibility_level = 1,
     repo_name = "AdaEngine"
 )
+
+bazel_dep(name = "platforms", version = "0.0.8", dev_dependency = True)
