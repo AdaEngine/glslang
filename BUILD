@@ -64,6 +64,7 @@ cc_library(
         "glslang",
         "SPIRV",
         "OGLCompilersDLL"
-    ]
+    ],
+    visibility = ["//visibility:public"],
 )
 
