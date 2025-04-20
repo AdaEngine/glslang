@@ -69,7 +69,7 @@ let package = Package(
             sources: glslangSources,
             publicHeadersPath: ".",
             cxxSettings: [
-                .define("ENABLE_OPT", to: "0")
+                .define("ENABLE_OPT", to: "0"),
             ]
         )
     ],

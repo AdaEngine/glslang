@@ -1,5 +1,0 @@
-module glslang {
-    header "glslang/Include/glslang_c_interface.h"
-
-    export *
-}
